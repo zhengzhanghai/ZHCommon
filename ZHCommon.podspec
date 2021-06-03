@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'ZHCommon'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of ZHCommon.'
-  s.description      = "这是一个描述，。。。。。。。。。。。。"
+  s.summary          = 'ZHCommon是一个iOS公共基础库'
+  s.description      = "ZHCommon是一个iOS公共基础库，里面包含了很多方便好用的iOS基础库，导入直接可用，还有一些拓展"
   s.homepage         = 'https://github.com/zhengzhanghai/ZHCommon'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
