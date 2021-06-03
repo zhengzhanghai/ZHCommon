@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZHCommon (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZHCommon (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZHCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZHCommon: 5b98ce92aa82e27e65abf90119682b989da42761
+
+PODFILE CHECKSUM: ecb15c7d50a2dc406df462b9e0fc4a2c9fd081e5
+
+COCOAPODS: 1.9.3

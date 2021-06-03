@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZHCommon_Example' do
+  pod 'ZHCommon', :path => '../'
+
+  target 'ZHCommon_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
